@@ -1,0 +1,556 @@
+*{
+      font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+#navitem{
+ font-size: 22px;
+ position: relative;
+ left:250px;
+ gap:40px;
+}
+
+#hlogo{
+    color:white;
+    position: relative;
+    right:50px;
+}
+
+#logoimg{
+    height:50px;
+    width:120px;
+}
+
+#navbar{
+    height:70px;
+     font-family: "Noto Sans JP", sans-serif;
+     background-color: rgb(243, 238, 231);
+       background: #002147;
+
+     
+}
+
+#heroimg{
+    width:100%;
+    height:720px;
+    /* opacity: 0.55; */
+}
+
+#login-form{
+    width:500px;
+    position: absolute;
+    top:0;
+    left:150px;
+    top:250px;
+    color:black;
+    color:white;
+    font-size: 20px;
+}
+
+#login-btn{
+    margin-left: 200px;
+    width:100px;
+         background-color: rgb(243, 238, 231);
+    border:2px solid grey;
+    color: black;
+}
+
+#newacc{
+ position: absolute;
+ bottom:280px;
+ left:220px;
+ color:grey;
+ font-size: 20px;
+}
+
+
+.dash {
+    display: flex;
+    justify-content: center;
+    height:200px;
+    padding: 20px;
+    background: #002147;
+    background-color: #0077b6;;
+    margin-bottom: 100px;
+  position: relative;
+  top:50px
+
+}
+
+#dashitems{
+    display: flex;
+    margin:50px;
+    gap:80px;
+    font-size: 24px;
+   font-family: "Noto Sans JP", sans-serif;
+   list-style: none;
+
+}
+#dashitems li{
+    color:white;
+    background: #002147;
+    border-radius: 10px;
+    height:50px;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+      border-bottom: none;
+        border-bottom: none !important;
+
+}
+
+#dashboard {
+     font-family: "Noto Sans JP", sans-serif;
+     text-align: center;
+     margin-top: 20px;
+     position: relative;
+     top:20px;
+     font-weight: bold;
+
+}
+
+#dashuser{
+font-family: "Noto Sans JP", sans-serif;
+ text-align: center;
+ position: relative;
+ top:22px;
+font-family: 'Playfair Display', serif;
+font-size: 32px;
+}
+
+#dashtable{
+    margin-top: 80px;
+}
+
+#accCard{
+  font-family: "Noto Sans JP", sans-serif;
+    text-align: center;  
+margin: auto;
+    background-color: #002147;
+      background-color: #004085;
+      background-color: #0077b6;;
+
+}
+
+
+#depocard{
+    background-color: #094dde;
+    background-color: #002147;
+          background-color: #0077b6;;
+    height:220px;
+    width:600px;
+    text-align: center;
+      font-family: "Noto Sans JP", sans-serif;
+      margin: auto;
+      padding-top: 40px;
+      border-radius: 20px;
+      
+}
+
+#depocard h1{
+    font-weight: bold;
+}
+#deposite ,p{
+    font-size: 18px;
+    position: relative;
+    bottom: 1px;
+}
+
+#depobtn{
+ font-family: "Noto Sans JP", sans-serif;
+     background-color: #002147;
+color:white;
+}
+
+
+#resetpass{
+background-color: #094dde;
+background-color: #0077b6;
+height:300px;
+width:400px;
+text-align: center;
+width:600px;
+margin: auto;
+      border-radius: 20px;
+
+}
+
+#fetchpass{
+   position: relative;
+   bottom: 20px; 
+}
+#resetpass h1{
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+#withdraw{
+    height:250px;
+    width:600px;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #0077b6;
+}
+
+#withdraw h1{
+    color:black;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+}
+
+#currbalance{
+height:250px;
+width:500px;
+margin: auto;
+border-radius: 20px;
+text-align: center;
+padding: 70px;
+    background-color: #0077b6;
+}
+
+#currbalance h3{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#ragisbtn{
+background-color: #002147;
+color:white;
+margin-top: 20px;
+}
+
+#ragisform{
+   font-size: 20px;
+   position: relative;
+   top:40px;
+
+} 
+#ragisH{
+    font-size: 32px;
+    position: relative;
+    bottom: 20px;
+    font-weight: bold;
+
+}
+
+/* LoanCalculators.css */
+.calculator-section {
+background-color: rgb(243, 238, 231);
+background-color: #002147;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+font-family: "Plus Jakarta Sans", sans-serif;
+  color: #002147;
+  margin-bottom: 20px;
+}
+
+.title span {
+  color: #002147;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.calculator-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  color: #004085;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.calculate-btn {
+    background: white;
+    background-color:  #002147;;
+
+  color: white;
+
+  padding: 10px 20px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  /* transition: background 0.3s ease; */
+}
+
+.calculate-btn:hover {
+  background: rgb(62, 61, 61);
+    background: rgba(255, 255, 255, 0.5);
+
+}
+
+/* customer services cards */
+
+.services-section {
+  background-color: #f9f9f9;
+    /* background-color:  #0077b6; */
+
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #002147;
+  margin-bottom: 15px;
+}
+
+.title span {
+  color: black
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+/* Card Section */
+.services-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* Card Styling */
+.card {
+  width: 320px;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(243, 238, 231);
+    background-color:  #0077b6;
+;
+
+}
+
+/* Hover Effect */
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Gradient backgrounds for different cards */
+/* .change-address {
+  /* background: linear-gradient(135deg, #ff6a00, #ee0979); */
+/* } */
+
+/* .account-transfer { */
+  /* background: linear-gradient(135deg, #0072ff, #00c6ff); */
+/* } */
+
+/* .update-kyc { */
+  /* background: linear-gradient(135deg, #4caf50, #2e7d32); */
+    /* background: (135deg, rgb(243, 238, 231), #2e7d32); */
+
+/* } */ 
+
+/* Icon container - circular design */
+.icon-container {
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.2);
+  background-color:white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+}
+
+/* Icon Styling */
+.icon {
+  font-size: 40px;
+  color: white;
+  color:black
+}
+
+/* Card Heading */
+.card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color:black
+}
+
+/* Card Description */
+.card p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+    color:black
+}
+
+/* Button Styling */
+.action-btn {
+  background: rgba(255, 255, 255, 0.3);
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  /* transition: background 0.3s ease, transform 0.2s ease; */
+}
+
+.action-btn:hover {
+  background: rgba(255, 255, 255, 0.5);
+  transform: scale(1.05);
+}
+
+/* Footer */
+
+/* Footer Styles */
+.footer {
+  background: #002147;
+  color: white;
+  padding: 50px 20px 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #0077b6;
+  padding-bottom: 5px;
+}
+
+.footer-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+/* Branch Office Icons */
+.footer-icon {
+  margin-right: 8px;
+  color: #00c6ff;
+}
+
+/* Social Media Links */
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.4rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #00c6ff;
+  transform: scale(1.2);
+}
+
+/* Subscription Box */
+.subscribe-box {
+  display: flex;
+  margin-top: 10px;
+}
+
+.subscribe-box input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.subscribe-box button {
+  background: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 0 5px 5px 0;
+  /* transition: background 0.3s ease; */
+}
+
+.subscribe-box button:hover {
+  background: #00c6ff;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1rem;
+  border-top: 1px solid #0077b6;
+  padding-top: 10px;
+  color: #bbb;
+}
